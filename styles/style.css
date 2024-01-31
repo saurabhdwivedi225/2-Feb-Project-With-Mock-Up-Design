@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+body{
+    background-color:#f9f5ed;
+}
+/* Styling Navigation bar  */
+nav{
+   padding:15px 5%;
+ margin: 3vh 9vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 6%;
+    font-size: 19px;
+display: flex;
+list-style: none;
+cursor: pointer;
+font-weight: 550;
+padding-left: 3px 40px;
+}
+a{
+    text-decoration: none; 
+}
+nav ul li:hover{
+font-weight: 900;
+text-decoration: underline;
+font-size: 22px;
+}
+nav ul li img{
+    width:100px;
+}
+/* Hero Section  */
+.hero-section{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Styling hero left section  */
+.hero-left-section{
+    width: 40%; 
+    padding-bottom: 80px;  
+    padding-left: 9%; 
+}
+.hero-left-section h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.hero-left-section p{
+    font-size: 20px;
+    font-weight: 500;   
+    margin:2% 0; 
+}
+.hero-left-section button{
+    font-size: 15px;
+    font-weight: 550;
+    width: fit-content; 
+    border-radius: 8px;
+    color: white;
+    background-color: #3b855b;
+    padding:4px 5px;
+    margin: 8px 0; 
+    border: none;
+}
+.hero-left-section button:hover{
+background-color:white;
+color: black;
+}
+/* Designing hero right section  */
+.hero-right-section{
+ width: 60%; 
+  padding:7%;
+ 
+}
+/* Styling images  */
+.hero-right-section div img{
+    width:36%;
+
+}
+.hero-right-section div  img:first-child
+{
+    margin-right: 20px;
+    margin-top: -40px;
+    
+}
+.hero-right-section div{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero-right-section img{
+    width: 71%;
+    
+}
+#right-imgpart2{
+width: 1170px;
+height: 200px;
+}
